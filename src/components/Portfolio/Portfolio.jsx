@@ -14,27 +14,27 @@ const Portfolio = () => {
        <div className='container portfolio__container'>
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-          <a href="https://fervent-volhard-f2991a.netlify.app/" target="_blank" rel='noopener noreferrer'>
+          <a href="https://idyllic-crumble-55cfda.netlify.app" target="_blank" rel='noopener noreferrer'>
             <img src={IMG1} alt="React Password Generator" />
           </a>  
           </div>
           <h3>Password Generator</h3>
           <div className='portfolio__item-cta'>
-          <a href="https://github.com/cfolsom86/pw-gen" target="_blank" rel='noopener noreferrer' className='btn'>Github</a>
-          <a href="https://fervent-volhard-f2991a.netlify.app/" target="_blank" rel='noopener noreferrer' className='btn btn-primary'>Live Demo</a>
+          <a href="https://github.com/cfolsom86/pw-gen1" target="_blank" rel='noopener noreferrer' className='btn'>Github</a>
+          <a href="https://idyllic-crumble-55cfda.netlify.app" target="_blank" rel='noopener noreferrer' className='btn btn-primary'>Live Demo</a>
           </div>
         </article>  
 
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-          <a href="https://62ead3364761cf07ecffae24--earnest-puffpuff-33c05e.netlify.app/" target="_blank" rel='noopener noreferrer' >
+          <a href="https://earnest-puffpuff-33c05e.netlify.app/" target="_blank" rel='noopener noreferrer' >
             <img src={IMG2} alt="React Tic-Tac-Toe" />
           </a>  
           </div>
           <h3>Tic-tac-toe</h3>
           <div className='portfolio__item-cta'>
           <a href="https://github.com/cfolsom86/tic-tac-toe" target="_blank" rel='noopener noreferrer' className='btn'>Github</a>
-          <a href="https://62ead3364761cf07ecffae24--earnest-puffpuff-33c05e.netlify.app/" target="_blank" rel='noopener noreferrer' className='btn btn-primary'>Live Demo</a>
+          <a href="https://earnest-puffpuff-33c05e.netlify.app/" target="_blank" rel='noopener noreferrer' className='btn btn-primary'>Live Demo</a>
           </div>
         </article>  
 
