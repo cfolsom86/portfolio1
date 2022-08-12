@@ -17,6 +17,7 @@
     padding: 2rem;
     border-radius: 2rem;
     user-select: none;
+    height: 200px;
 }
 
 .client__review {
@@ -24,6 +25,7 @@
     display: block;
     width: 80%;
     margin: 0.8rem auto 0;
+    height: 150px;
 }
 
 /*============ Media Queries (med)=========*/

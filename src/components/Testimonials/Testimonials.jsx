@@ -1,19 +1,29 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
 import './Testimonials.css'
 import Ava1 from '../../assets/fitz-avatar.jpg'
 import Ava2 from '../../assets/derp.jpeg'
+import { Swiper, SwiperSlide } from "swiper/react"
+import "swiper/css"
+import "swiper/css/pagination"
+import { Pagination } from "swiper"
 
 const data = [
 {
   avatar: Ava1,
   name: 'CaptainPopCulture',
-  review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor diam eget massa posuere, eu viverra diam sollicitudin. Praesent nisl nunc, volutpat eget augue at, commodo rhoncus nisl. Maecenas non ipsum ultrices tellus fermentum ullamcorper. Phasellus mollis pharetra risus ut varius. Phasellus luctus risus non dui iaculis, nec porta elit finibus. Phasellus maximus tristique iaculis. Nulla facilisi. Suspendisse facilisis et justo quis varius. Praesent fermentum nibh eu justo porttitor, vel tempor eros malesuada. Donec ante est, faucibus ut nisl ac, vehicula blandit nunc. Nulla dignissim neque id risus convallis, eu rutrum ante aliquet. Donec aliquet feugiat nisi, nec dapibus augue eleifend vel. Nunc sed ex ac sem ultricies accumsan ac at augue. Curabitur egestas rutrum urna, dignissim eleifend sem. Phasellus volutpat nisi nibh, at elementum nulla tincidunt quis. Donec rutrum tellus sed enim auctor tempor. Aliquam at nunc convallis, facilisis nibh id, venenatis metus. Phasellus molestie mattis metus, ac venenatis est volutpat sit amet. Suspendisse mattis, urna a pellentesque euismod, nisl libero ullamcorper neque, sed varius arcu quam sit amet justo. Cras egestas sit amet dui id molestie."
+  review: "Best website anyone has ever made for me. And it was free, to boot! Man! I really owe Cliff one (even tho his wife and I got him a bass amp for his birthday...)"
 },
 {
   avatar: Ava2,
   name: "Someone Else",
-  review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor diam eget massa posuere, eu viverra diam sollicitudin. Praesent nisl nunc, volutpat eget augue at, commodo rhoncus nisl. Maecenas non ipsum ultrices tellus fermentum ullamcorper. Phasellus mollis pharetra risus ut varius. Phasellus luctus risus non dui iaculis, nec porta elit finibus. Phasellus maximus tristique iaculis. Nulla facilisi. Suspendisse facilisis et justo quis varius. Praesent fermentum nibh eu justo porttitor, vel tempor eros malesuada. Donec ante est, faucibus ut nisl ac, vehicula blandit nunc. Nulla dignissim neque id risus convallis, eu rutrum ante aliquet. Donec aliquet feugiat nisi, nec dapibus augue eleifend vel. Nunc sed ex ac sem ultricies accumsan ac at augue. Curabitur egestas rutrum urna, dignissim eleifend sem. Phasellus volutpat nisi nibh, at elementum nulla tincidunt quis. Donec rutrum tellus sed enim auctor tempor. Aliquam at nunc convallis, facilisis nibh id, venenatis metus. Phasellus molestie mattis metus, ac venenatis est volutpat sit amet. Suspendisse mattis, urna a pellentesque euismod, nisl libero ullamcorper neque, sed varius arcu quam sit amet justo. Cras egestas sit amet dui id molestie."
-},]
+  review: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet consectetur, aut inventore debitis a sunt minus quos animi eligendi deserunt aliquam assumenda, corporis impedit reprehenderit molestias doloribus culpa. Odit tenetur et quidem velit, iste doloremque ut! Laboriosam totam assumenda delectus eum dolor tenetur voluptatibus temporibus eius, placeat iure, neque asperiores!"
+},
+{
+  avatar: Ava2,
+  name: "My Mom",
+  review: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero quisquam fugit unde culpa cumque maxime qui in provident ut expedita, earum ipsum consequuntur, voluptates, dolore reprehenderit. Amet ipsa, modi ea deserunt expedita quis architecto assumenda perspiciatis? Molestiae adipisci quibusdam ea vel nulla odio tenetur deleniti. Quo deserunt cumque laudantium eaque incidunt culpa, ex expedita, sequi laborum dignissimos vel unde, officia iure obcaecati illum odit atque eveniet error? Architecto libero ea aut quisquam perspiciatis quam voluptatem, expedita enim recusandae similique saepe!"
+}
+]
 
 const Testimonials = () => {
   return (
@@ -21,21 +31,22 @@ const Testimonials = () => {
       <h5>Reviews from clients</h5>
       <h2>Testimonials</h2>
 
-      <div className='container testimonials__container'>
+      <Swiper className='container testimonials__container'>
         {
           data.map(({avatar, name, review}, index) => {
-            <article className='testimonial'>
-              <div className='client__avatar'>
-                <img src={Ava1} alt='Ava1'/>
-              </div>
-              <h5 className='client__name'>CaptainPopCulture</h5>
-              <small className='client__review'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni aliquam quia ut, dolores quaerat, eligendi, magnam optio pariatur voluptatem reprehenderit qui earum exercitationem perspiciatis amet iure eos ipsum repellat consectetur.</small>
-
-            </article>
+            return (
+              <SwiperSlide key={index} className="testimonial">
+                <div className='client__avatar'>
+                  <img src={avatar} alt="Avatar 1" />
+                </div>
+                <h5 className='client__name'>{name}</h5>
+                <small className='client__review'>{review}</small>
+              </SwiperSlide>
+            )
           })
         }
 
-      </div>
+      </Swiper>
     </section>
   )
 }
