@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react'
 import './Testimonials.css'
 import Ava1 from '../../assets/fitz-avatar.jpg'
 import Ava2 from '../../assets/derp.jpeg'
+import Ava3 from '../../assets/spoopy.jpg'
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css"
 import "swiper/css/pagination"
@@ -19,7 +20,7 @@ const data = [
   review: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet consectetur, aut inventore debitis a sunt minus quos animi eligendi deserunt aliquam assumenda, corporis impedit reprehenderit molestias doloribus culpa. Odit tenetur et quidem velit, iste doloremque ut! Laboriosam totam assumenda delectus eum dolor tenetur voluptatibus temporibus eius, placeat iure, neque asperiores!"
 },
 {
-  avatar: Ava2,
+  avatar: Ava3,
   name: "My Mom",
   review: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero quisquam fugit unde culpa cumque maxime qui in provident ut expedita, earum ipsum consequuntur, voluptates, dolore reprehenderit. Amet ipsa, modi ea deserunt expedita quis architecto assumenda perspiciatis? Molestiae adipisci quibusdam ea vel nulla odio tenetur deleniti. Quo deserunt cumque laudantium eaque incidunt culpa, ex expedita, sequi laborum dignissimos vel unde, officia iure obcaecati illum odit atque eveniet error? Architecto libero ea aut quisquam perspiciatis quam voluptatem, expedita enim recusandae similique saepe!"
 }
