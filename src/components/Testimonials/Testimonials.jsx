@@ -6,13 +6,15 @@ import Ava3 from '../../assets/spoopy.jpg'
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css"
 import "swiper/css/pagination"
+import 'swiper/css/navigation';
+import 'swiper/css/scrollbar';
 import { Pagination } from "swiper"
 
 const data = [
 {
   avatar: Ava1,
   name: 'CaptainPopCulture',
-  review: "Best website anyone has ever made for me. And it was free, to boot! Man! I really owe Cliff one (even tho his wife and I got him a bass amp for his birthday...)"
+  review: "Having known me for several years, he knew exactly what my ambitions were. Cliff suggested to me that I delve into the expanding world of online commerce. Now I know next to nothing when it comes to these things. I’m not very skilled in computer programming. Cliff assured me that this would not be a problem. He showed me some online tools and easy ways to run a shop online. Cliff then proceeded to take it upon himself to start building my online shop. Within only a few short hours, Cliff had made a template for a store that would allow me to follow my dream. Within only a few short days, my online shop was up and running. Now thanks to Cliff Folsom, I can finally say that I am a comic and toy shop owner. Feel free to look at his amazing work at CaptainPopCulture.com. I would not have been able to do this without him, and I highly recommend him for any of your project needs. You will not be disappointed. 5 out of 5 Stars! -CaptainPopCulture-"
 },
 {
   avatar: Ava2,
@@ -32,7 +34,14 @@ const Testimonials = () => {
       <h5>Reviews from clients</h5>
       <h2>Testimonials</h2>
 
-      <Swiper className='container testimonials__container'>
+      <Swiper className="container testimonials__container"
+              // install Swiper modules
+      modules={[Pagination]}
+      spaceBetween={40}
+      slidesPerView={1}
+      navigation
+      pagination={{ clickable: true }}
+      >
         {
           data.map(({avatar, name, review}, index) => {
             return (
