@@ -43,9 +43,9 @@ header {
 /*=============== Hero image ===================*/
 
 .me, .me > img{
-    background-color: var(--color-primary);
-    width: 22rem;
-    height: 30rem;
+    background-color: var(--color-bg-primary);
+    width: 38rem;
+    height: 50rem;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
