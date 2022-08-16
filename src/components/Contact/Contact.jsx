@@ -32,7 +32,7 @@ const Contact = () => {
             <a href='tel:8502288601' target="_blank" rel="noreferrer" className='contact__icon'><BsTelephone /></a>
             <h4>Call or text</h4>
             <h5>850-228-8601</h5>
-            <a href='tel:8502288601' target="_blank" rel="noreferrer">Call or Text</a>
+            <a href='tel:8502288601' target="_blank" rel="noreferrer">HMU</a>
           </article>
 
           <article className='contact__option'>
