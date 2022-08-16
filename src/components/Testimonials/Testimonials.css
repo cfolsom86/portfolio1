@@ -1,5 +1,5 @@
 .container.testimonials__container {
-    width: 40%;
+    width: 60%;
     padding-bottom: 4rem;
 }
 
@@ -37,17 +37,17 @@
 /*============ Media Queries (med)=========*/
 @media screen and (max-width: 1024) {
     .container.testimonials__containter {
-        width: 60%;
+        width: 100%;
     }
 }
 
 /*============ Media Queries (Sm)=========*/
 @media screen and (max-width: 600) {
     .container.testimonials__containter {
-        width: var(--container-width-sm);
+        width: 90%;
     }
 
     .client__review {
-        width: var(--container-width-sm);
+        width: 90%;
     }
 }
