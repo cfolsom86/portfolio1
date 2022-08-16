@@ -5,13 +5,13 @@ nav {
     padding: 0.7rem 1.7rem;
     z-index: 2;
     position: fixed;
-    left: 50%;
+    left: 25%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
-    bottom: 2rem;
+    top: 2rem;
     display: flex;
     gap: 0.8rem;
     border-radius: 3rem;
