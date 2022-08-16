@@ -32,6 +32,7 @@ const Contact = () => {
             <h5>cliff-folsom</h5>
             <a href='https://m.me/cliff.folsom' target="_blank" rel="noreferrer">Send a message</a>
           </article>
+          </div>
           {/*End of Contact Options */}
           <form action="">
             <input type="text" name="name" placeholder="Your full name" required />
@@ -40,7 +41,6 @@ const Contact = () => {
             <button type="submit" className="btn btn__primary">Send</button>
           </form>
         </div>
-      </div>
     </section>
   )
 }
