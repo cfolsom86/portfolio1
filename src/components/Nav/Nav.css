@@ -12,6 +12,7 @@ nav {
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     top: 2rem;
+    left: 10rem;
     display: flex;
     gap: 0.8rem;
     border-radius: 3rem;

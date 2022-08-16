@@ -38,7 +38,7 @@ const About = () => {
           </article>
         </div>
 
-        <p>I am always a student, but am currently working at DECODE Advertising, a digital marketing company in Houston. I am self-taught, spending the last 2-3 years perfecting the art of development. Some of the work I've done has been for National clients, such as St. Luke's Health, Dignity Health, White Deer Energy, and CaptainPopCulture. I am always looking for more to learn and finding new ways to grow. </p>
+        <p>I am always a student, but am currently working at DECODE Advertising, a digital marketing agency in Houston. I am self-taught, spending the last 2-3 years studying the art of development. Some of the work I've done has been for National clients, such as St. Luke's Health, Dignity Health, White Deer Energy, and some more local work for friends, like CaptainPopCulture. I am always looking for more to learn and finding new ways to grow. </p>
 
         <a href='#Contact' className='btn btn-primary'>Let's talk</a>
       </div>
