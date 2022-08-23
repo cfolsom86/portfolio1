@@ -1,9 +1,9 @@
 footer {
     background: var(--color-bg-variant);
-    padding: 3rem 0;
+    padding: 2rem 0;
     text-align: center;
     font-size: 0.9rem;
-    margin-top: 7rem; 
+    margin-top: 4rem; 
 }
 
 footer a {
@@ -13,7 +13,6 @@ footer a {
 .footer__logo {
     font-size: 2rem;
     font-weight: 500;
-    margin-bottom: 2rem;
     display: inline-block;
     color: var(--color-primary)
 }
@@ -51,3 +50,17 @@ footer a {
 .footer__copyright {
     color: var(--color-primary);
 }
+
+/*===========Media Queries (Sm)=========*/
+
+@media screen and (max-width: 600px) {
+    .perma__links {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .footer__socials {
+        margin-bottom: 0.6rem;
+    }
+}
+
