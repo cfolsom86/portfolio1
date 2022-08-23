@@ -82,19 +82,25 @@ header {
 
 @media screen and (max-width: 1024px) {
     header {
-        height: 100vh;
+        height: 80vh;
     }
+   
+
 }
 
 /*===========Media Queries (Sm)=========*/
 
 @media screen and (max-width: 600px) {
     header{
-        height: 100vh;
+        height: 50vh;
     }
     .header_socials, .scroll_down {
         display: none;
     }
 
+    .me, .me > img {
+        max-width: 100%;
+        height: auto;
+    }
 
 }
