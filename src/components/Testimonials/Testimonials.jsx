@@ -8,7 +8,7 @@ import "swiper/css"
 import "swiper/css/pagination"
 import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
-import { Pagination } from "swiper"
+import { Pagination, Navigation, Scrollbar } from "swiper"
 
 const data = [
 {
@@ -36,11 +36,13 @@ const Testimonials = () => {
 
       <Swiper className="container testimonials__container"
               // install Swiper modules
-      modules={[Pagination]}
-      spaceBetween={40}
-      slidesPerView={1}
-      navigation
-      pagination={{ clickable: true }}
+      
+              modules={[Navigation, Pagination, Scrollbar ]}
+              spaceBetween={50}
+              slidesPerView={1}
+              navigation
+              pagination={{ clickable: true }}
+              scrollbar={{ draggable: true }}
       >
         {
           data.map(({avatar, name, review}, index) => {
@@ -52,6 +54,8 @@ const Testimonials = () => {
                 <h5 className='client__name'>{name}</h5>
                 <small className='client__review'>{review}</small>
               </SwiperSlide>
+              
+              
             )
           })
         }
