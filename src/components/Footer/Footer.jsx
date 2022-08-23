@@ -10,7 +10,7 @@ import me from '../../assets/folsom-prism_1.png'
 const Footer = () => {
   return (
     <footer>
-      <h1><a href="www.google.com" className='footer__logo'><img src={me} alt="folsom-prism logo"/></a></h1>
+      <h1><a href="https://www.folsom-prism.com" className='footer__logo'><img src={me} alt="folsom-prism logo"/></a></h1>
 
       <ul className='perma__links'>
         <li><a href='#Header'>Header</a></li>
