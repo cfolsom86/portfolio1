@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 5rem;
     overflow: hidden;
 }
 
@@ -54,11 +54,11 @@ header {
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     border-radius: 12rem 12rem 0 12rem;
-    overflow: hidden;
     -webkit-border-radius: 12rem 12rem 0 12rem;
     -moz-border-radius: 12rem 12rem 0 12rem;
     -ms-border-radius: 12rem 12rem 0 12rem;
     -o-border-radius: 12rem 12rem 0 12rem;
+    overflow: hidden;
 }
 
 
@@ -80,9 +80,9 @@ header {
 
 /*===========Media Queries (Med)=========*/
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
     header {
-        height: 80vh;
+        height: 100vh;
     }
    
 
@@ -98,9 +98,9 @@ header {
         display: none;
     }
 
-    .me, .me > img {
-        max-width: 100%;
-        height: auto;
+    .me {
+        display: none;
     }
+   
 
 }

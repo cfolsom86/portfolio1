@@ -42,3 +42,11 @@ nav a.active {
     background: var(--color-light);
     color: var(--color-white);
 }
+
+/*===========Media Queries (Sm)=========*/
+
+@media screen and (max-width: 600px) {
+    nav {
+        display: none;
+    }
+}
