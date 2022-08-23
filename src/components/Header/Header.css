@@ -28,9 +28,14 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 0.8rem;
-    position: absolute;
-    left: o;
-    bottom: 3rem;
+    position: fixed;
+    right: 10rem;
+    top: 5rem;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    backdrop-filter: blur(15px); 
+    border-radius: 25px;
 }
 
 .header_socials::after {
@@ -48,6 +53,7 @@ header {
     height: 50rem;
     position: absolute;
     left: 50%;
+    top: 20px;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
@@ -66,9 +72,9 @@ header {
 /*=============== Scroll Down ===================*/
 
 .scroll_down {
-    position: absolute;
-    right: -2.3rem;
-    bottom: 5rem;
+    position: fixed;
+    right: 8rem;
+    top: 20rem;
     transform: rotate(90deg);
         -webkit-transform: rotate(90deg);
         -moz-transform: rotate(90deg);
@@ -76,6 +82,13 @@ header {
         -o-transform: rotate(90deg);
     font-weight: 300;
     font-size: .9rem;    
+    background: rgba(0, 0, 0, 0.3);
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    border-radius: 25px;
+    backdrop-filter: blur(15px); 
+    color: var(--color-primary);
+    
 }
 
 /*===========Media Queries (Med)=========*/
