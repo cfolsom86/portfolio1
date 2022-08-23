@@ -15,12 +15,13 @@ const Header = () => {
         <CTA />
         <HeaderSocials />
 
-        <div className="me">
-          <img src={me} alt="folsom-prism logo" />
-        </div>
+       
 
       <a href="#Contact" className="scroll_down">Scroll down</a>
          </div>
+         <div className="me">
+          <img src={me} alt="folsom-prism logo" />
+        </div>
   </header>
   )
 }

@@ -42,7 +42,6 @@ const Testimonials = () => {
               slidesPerView={1}
               navigation
               pagination={{ clickable: true }}
-              scrollbar={{ draggable: true }}
       >
         {
           data.map(({avatar, name, review}, index) => {
