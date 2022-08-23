@@ -43,6 +43,14 @@ nav a.active {
     color: var(--color-white);
 }
 
+/*===========Media Queries (Med)=========*/
+
+@media screen and (max-width: 1025px) {
+    nav {
+        padding: 0.4rem 0.4rem;
+    }
+}
+
 /*===========Media Queries (Sm)=========*/
 
 @media screen and (max-width: 600px) {

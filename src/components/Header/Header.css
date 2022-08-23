@@ -97,6 +97,11 @@ header {
     header {
         height: 100vh;
     }
+
+    .header_socials, .scroll_down {
+        padding: 0.4rem 0.4rem;
+    }
+
    
 
 }
