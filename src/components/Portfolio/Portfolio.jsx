@@ -40,7 +40,7 @@ const Portfolio = () => {
 
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-          <a href="https://recipes.netlify.app/" target="_blank" rel='noopener noreferrer'>
+          <a href="https://cliffs-eats.netlify.app/" target="_blank" rel='noopener noreferrer'>
             <img src={IMG3} alt="Recipe Search" />
            </a> 
           </div>
