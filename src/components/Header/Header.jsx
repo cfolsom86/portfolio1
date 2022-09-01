@@ -6,6 +6,8 @@ import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
   return (
+    <div>
+      
     <header id="header">
       <div className="container header_container">
         <h4>Hello, I'm</h4>
@@ -23,6 +25,7 @@ const Header = () => {
           <img src={me} alt="folsom-prism logo" />
         </div>
   </header>
+  </div>
   )
 }
 

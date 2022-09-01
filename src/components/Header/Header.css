@@ -48,24 +48,19 @@ header {
 
 /*=============== Hero image ===================*/
 
-.me, .me > img{
+ .me > img{
     background-color: var(--color-bg-primary);
     width: 25rem;
     height: 30rem;
     position: absolute;
     left: 50%;
-    top: 6rem;
+    top: 20rem;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
-    border-radius: 12rem 12rem 0 12rem;
-    -webkit-border-radius: 12rem 12rem 0 12rem;
-    -moz-border-radius: 12rem 12rem 0 12rem;
-    -ms-border-radius: 12rem 12rem 0 12rem;
-    -o-border-radius: 12rem 12rem 0 12rem;
-    overflow: hidden;
+    overflow: auto;
 }
 
 
