@@ -7,7 +7,7 @@ CFolsom86@gmail.com
 
 https://www.folsom-prism.com
 
-Experienced Chef, with experience in management, menu creation and inventory. Exemplifies leadership and professionalism, with a consistent record of achievement looking to expand skills inside or outside of the restaurant industry. Experience in programming languages as well as website design.
+Experienced Chef, with experience in management, menu creation and inventory. Exemplifies leadership and professionalism, with a consistent record of achievement looking to expand skills. Experience in programming languages as well as website design.
 
 EDUCATION:  
 Keiser University         Culinary Arts Program                  Tallahassee, FL               April 2010      
@@ -16,56 +16,67 @@ EXPERIENCE:
 
 DECODE Digital 							Houston, TX	2021 - Present
 Junior Web Developer
-• Multi-tasked across multiple functions and roles to meet deadlines and organizational expectations 
-• Built website interfaces using HTML, CSS, Javascript and more
-• Developed page layouts and navigation tools that met or exceeded expectations 
-• Strengthened intranet and sub-sites to bolster internal communication strategies
-• Implemented Google SEO and ad camplaigns 
-• Provided front-end web development using AEM, Wordpress, Hubspot, and many more
-• Coded websites using HTML, CSS< JS, React and JQuery
-• Ran debugging tools to eliminate flaws and errors prior to publishing
-• Adhered to SEO standards and best practices
+ï¿½ Multi-tasked across multiple functions and roles to meet deadlines and organizational expectations 
+ï¿½ Built website interfaces using HTML, CSS, Javascript and more
+ï¿½ Developed page layouts and navigation tools that met or exceeded expectations 
+ï¿½ Strengthened intranet and sub-sites to bolster internal communication strategies
+ï¿½ Implemented Google SEO and ad camplaigns 
+ï¿½ Provided front-end web development using AEM, Wordpress, Hubspot, and many more
+ï¿½ Coded websites using HTML, CSS< JS, React and JQuery
+ï¿½ Ran debugging tools to eliminate flaws and errors prior to publishing
+ï¿½ Adhered to SEO standards and best practices
 
 
 Mellow Mushroom				         		Spring, TX	2019-Present
 Kitchen Manager
-• Responsible for scheduling kitchen and bar staff
-• Responsible for inventory management as well as order procurement
-• Responsible for hiring and training new staff members in accordance with policy and procedure
-• Maintain labor and food cost budgets in accordance with company standards
-• Ensure work procedures, quality standards and menu specifications adhered to
-• Assisted in rolling out new promotions and creating new promotional menu items
-• Coordinate and communicate on orders with serving staff and Front of House management
-• Maintain high levels of customer service standards and exceed customer expectation
-• Receive orders, process payments and respond appropriately to customer concerns
+ï¿½ Responsible for scheduling kitchen and bar staff
+ï¿½ Responsible for inventory management as well as order procurement
+ï¿½ Responsible for hiring and training new staff members in accordance with policy and procedure
+ï¿½ Maintain labor and food cost budgets in accordance with company standards
+ï¿½ Ensure work procedures, quality standards and menu specifications adhered to
+ï¿½ Assisted in rolling out new promotions and creating new promotional menu items
+ï¿½ Coordinate and communicate on orders with serving staff and Front of House management
+ï¿½ Maintain high levels of customer service standards and exceed customer expectation
+ï¿½ Receive orders, process payments and respond appropriately to customer concerns
 
 Amazon Fulfillment Center                                                 		Houston, TX	2018-2018                  
 Problem Solver
-• Ensured correct items were located and shipped by cut-off time 
-• Located lost items in warehouse to ensure appropriate labeling for shipping 
-• Responsible for restocking of overage items as well as replacing damaged items prior to shipment 
-• Reached out to vendors for timely replacement of items for shipment 
-• Responsible for training new staff members following company guidelines 
-• Ensure individual items are sent to correct department utilizing computerized routing tools 
+ï¿½ Ensured correct items were located and shipped by cut-off time 
+ï¿½ Located lost items in warehouse to ensure appropriate labeling for shipping 
+ï¿½ Responsible for restocking of overage items as well as replacing damaged items prior to shipment 
+ï¿½ Reached out to vendors for timely replacement of items for shipment 
+ï¿½ Responsible for training new staff members following company guidelines 
+ï¿½ Ensure individual items are sent to correct department utilizing computerized routing tools 
 
 Wild Ginger Restaurant                                                    		Conroe, TX	  2017-2018                   
 Teppanyaki Chef 
-• Ensure the correct food portions are provided for each chef during prep 
-• Responsible for ensuring all breaks are covered, as well as assisting other chefs with daily duties 
-• Ensure appropriate food labels, date stamps, etc. are being used appropriately by all staff 
-• Maintain sanitary and safe working environment and workspace 
-• Assist in inventory & cost control of all food, operating supplies, as well as beverages 
-• Break down large cuts of beef, chicken, fish to prepare for dinner service 
-• Responsible for ensuring labor hours remain under budget 
+ï¿½ Ensure the correct food portions are provided for each chef during prep 
+ï¿½ Responsible for ensuring all breaks are covered, as well as assisting other chefs with daily duties 
+ï¿½ Ensure appropriate food labels, date stamps, etc. are being used appropriately by all staff 
+ï¿½ Maintain sanitary and safe working environment and workspace 
+ï¿½ Assist in inventory & cost control of all food, operating supplies, as well as beverages 
+ï¿½ Break down large cuts of beef, chicken, fish to prepare for dinner service 
+ï¿½ Responsible for ensuring labor hours remain under budget 
 
 
 Leadership & Technical Competencies
 - Team Leadership
 - Customer Relationship Management
-- Vendor Sourcing
-- Business Analysis
-- Inventory Management 
-- Menu Creation & Pricing
+- Server and Hosting Management
+
+Development Languages
+- HTML
+- CSS
+- Javascript, as well as many libraries and frameworks such as React
+- PHP
+
+CMS Experience
+- Wordpress
+- AEM
+- Drupal
+- Crownpeak
+- Netlify
+- Hubspot
 
 Languages & Software: HTML, CSS3, JavaScript, Microsoft Office, Adobe
 

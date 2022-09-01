@@ -3,6 +3,7 @@ import {BsLinkedin} from 'react-icons/bs'
 import {BsGithub} from 'react-icons/bs'
 import { MdOutlineSell } from 'react-icons/md'
 import { GoArrowDown } from 'react-icons/go'
+import './Header.css'
 
 const HeaderSocials = () => {
   return (
