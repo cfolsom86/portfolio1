@@ -4,6 +4,7 @@ import IMG1 from '../../assets/pw-gen_41.png'
 import IMG2 from '../../assets/tictactoe_50.png'
 import IMG3 from '../../assets/recipe_80.jpg'
 import IMG4 from '../../assets/cap_350x.jpg'
+import IMG5 from '../../assets/prism-weather.jpg'
 
 const Portfolio = () => {
   return (
@@ -61,6 +62,20 @@ const Portfolio = () => {
           <a href="https://www.captainpopculture.com" target="_blank" rel='noopener noreferrer' className='btn'>Go shopping!</a>
           
   </article> 
+
+        <article className='portfolio__item'>
+          <div className='portfolio__item-image'>
+          <a href="https://prism-weather.netlify.app/" target="_blank" rel='noopener noreferrer'>
+            <img src={IMG5} alt="Recipe Search" />
+           </a> 
+          </div>
+          <h3>Weather app</h3>
+          <div className='portfolio__item-cta'>
+          <a href="https://github.com/cfolsom86/weather" target="_blank" rel='noopener noreferrer' className='btn'>Github</a>
+          <a href="https://prism-weather.netlify.app/" target="_blank" rel='noopener noreferrer' className='btn btn-primary'>Live Demo</a>
+          </div>
+        </article>
+
         <small>*More being made all the time*</small>
       </div>
     </section> 
