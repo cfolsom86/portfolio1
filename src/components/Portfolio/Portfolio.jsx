@@ -26,7 +26,7 @@ const Portfolio = () => {
           </div>
         </article>  
 
-        <article className='portfolio__item'>
+       {/*} <article className='portfolio__item'>
           <div className='portfolio__item-image'>
           <a href="https://earnest-puffpuff-33c05e.netlify.app/" target="_blank" rel='noopener noreferrer' >
             <img src={IMG2} alt="React Tic-Tac-Toe" />
@@ -37,7 +37,7 @@ const Portfolio = () => {
           <a href="https://github.com/cfolsom86/tic-tac-toe" target="_blank" rel='noopener noreferrer' className='btn'>Github</a>
           <a href="https://earnest-puffpuff-33c05e.netlify.app/" target="_blank" rel='noopener noreferrer' className='btn btn-primary'>Live Demo</a>
           </div>
-        </article>  
+        </article> */} 
 
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
