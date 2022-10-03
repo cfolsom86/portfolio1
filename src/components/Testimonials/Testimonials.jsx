@@ -3,6 +3,7 @@ import './Testimonials.css'
 import Ava1 from '../../assets/fitz-avatar.jpg'
 import Ava2 from '../../assets/derp.jpeg'
 import Ava3 from '../../assets/spoopy.jpg'
+import Blinkin from '../../assets/blinkin.jpeg'
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css"
 import "swiper/css/pagination"
@@ -22,9 +23,9 @@ const data = [
   review: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet consectetur, aut inventore debitis a sunt minus quos animi eligendi deserunt aliquam assumenda, corporis impedit reprehenderit molestias doloribus culpa. Odit tenetur et quidem velit, iste doloremque ut! Laboriosam totam assumenda delectus eum dolor tenetur voluptatibus temporibus eius, placeat iure, neque asperiores!"
 },
 {
-  avatar: Ava3,
+  avatar: Blinkin,
   name: "My Mom",
-  review: "ierj qeijv weijbvefnv;weijv we;fij ;eif jbefo je;rkjvw ef;kjw4"
+  review: "ierj qeijv weijbvefnv;weijv we;fij ;eif jbefo je;rkjvw ef;kjw4gi"
 }
 ]
 
