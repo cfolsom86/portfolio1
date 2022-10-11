@@ -20,6 +20,7 @@ const Portfolio = () => {
           </a>  
           </div>
           <h3>Password Generator</h3>
+          <p>Made with React</p>
           <div className='portfolio__item-cta'>
           <a href="https://github.com/cfolsom86/pw-gen1" target="_blank" rel='noopener noreferrer' className='btn'>Github</a>
           <a href="https://idyllic-crumble-55cfda.netlify.app" target="_blank" rel='noopener noreferrer' className='btn btn-primary'>Live Demo</a>
@@ -46,6 +47,7 @@ const Portfolio = () => {
            </a> 
           </div>
           <h3>Recipe Card Search</h3>
+          <p>Made with React, OpenWeather API and GeoDB api</p>
           <div className='portfolio__item-cta'>
           <a href="https://github.com/cfolsom86/cliffs-eats" target="_blank" rel='noopener noreferrer' className='btn'>Github</a>
           <a href="https://cliffs-eats.netlify.app/" target="_blank" rel='noopener noreferrer' className='btn btn-primary'>Live Demo</a>
@@ -59,6 +61,7 @@ const Portfolio = () => {
           </a>  
           </div>
           <h3>CaptainPopCulture.com</h3>
+          <p>Built on Shopify, with custom CSS and Javascript</p>
           <a href="https://www.captainpopculture.com" target="_blank" rel='noopener noreferrer' className='btn'>Go shopping!</a>
           
   </article> 
