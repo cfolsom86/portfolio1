@@ -2,7 +2,6 @@ import React from 'react'
 import './Testimonials.css'
 import Ava1 from '../../assets/fitz-avatar.jpg'
 import Ava2 from '../../assets/derp.jpeg'
-import Ava3 from '../../assets/spoopy.jpg'
 import Blinkin from '../../assets/blinkin.jpeg'
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css"

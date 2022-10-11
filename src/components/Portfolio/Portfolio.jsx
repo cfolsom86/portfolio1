@@ -1,7 +1,6 @@
 import React from 'react'
 import './Portfolio.css'
 import IMG1 from '../../assets/pw-gen_41.png'
-import IMG2 from '../../assets/tictactoe_50.png'
 import IMG3 from '../../assets/recipe_80.jpg'
 import IMG4 from '../../assets/cap_350x.jpg'
 import IMG5 from '../../assets/prism-weather.jpg'
@@ -73,7 +72,7 @@ const Portfolio = () => {
            </a> 
           </div>
           <h3>Weather app</h3>
-          <p>I'm still working on this one...</p>
+          <p>I'm still working on this one...<br /></p>
           <div className='portfolio__item-cta'>
           <a href="https://github.com/cfolsom86/weather" target="_blank" rel='noopener noreferrer' className='btn'>Github</a>
           <a href="https://prism-weather.netlify.app/" target="_blank" rel='noopener noreferrer' className='btn btn-primary'>Live Demo</a>
