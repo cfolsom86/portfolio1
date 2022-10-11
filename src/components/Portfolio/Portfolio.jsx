@@ -19,7 +19,7 @@ const Portfolio = () => {
           </a>  
           </div>
           <h3>Password Generator</h3>
-          <p>Made with React</p>
+          <p>Made with React as my first project </p>
           <div className='portfolio__item-cta'>
           <a href="https://github.com/cfolsom86/pw-gen1" target="_blank" rel='noopener noreferrer' className='btn'>Github</a>
           <a href="https://idyllic-crumble-55cfda.netlify.app" target="_blank" rel='noopener noreferrer' className='btn btn-primary'>Live Demo</a>
@@ -46,7 +46,7 @@ const Portfolio = () => {
            </a> 
           </div>
           <h3>Recipe Card Search</h3>
-          <p>Made with React, OpenWeather API and GeoDB api</p>
+          <p>Made with React and the Spoonacular API</p>
           <div className='portfolio__item-cta'>
           <a href="https://github.com/cfolsom86/cliffs-eats" target="_blank" rel='noopener noreferrer' className='btn'>Github</a>
           <a href="https://cliffs-eats.netlify.app/" target="_blank" rel='noopener noreferrer' className='btn btn-primary'>Live Demo</a>
@@ -72,7 +72,7 @@ const Portfolio = () => {
            </a> 
           </div>
           <h3>Weather app</h3>
-          <p>I'm still working on this one...<br /></p>
+          <p>OpenWeather API and GeoDB api - I'm still working on this one...</p>
           <div className='portfolio__item-cta'>
           <a href="https://github.com/cfolsom86/weather" target="_blank" rel='noopener noreferrer' className='btn'>Github</a>
           <a href="https://prism-weather.netlify.app/" target="_blank" rel='noopener noreferrer' className='btn btn-primary'>Live Demo</a>
