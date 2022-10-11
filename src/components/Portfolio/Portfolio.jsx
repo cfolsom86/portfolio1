@@ -73,6 +73,7 @@ const Portfolio = () => {
            </a> 
           </div>
           <h3>Weather app</h3>
+          <p>I'm still working on this one...</p>
           <div className='portfolio__item-cta'>
           <a href="https://github.com/cfolsom86/weather" target="_blank" rel='noopener noreferrer' className='btn'>Github</a>
           <a href="https://prism-weather.netlify.app/" target="_blank" rel='noopener noreferrer' className='btn btn-primary'>Live Demo</a>
