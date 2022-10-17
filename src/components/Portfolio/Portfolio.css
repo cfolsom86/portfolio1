@@ -54,6 +54,10 @@ img {
     padding-bottom: 2rem;
 }
 
+.small {
+    color: var(--color-primary-variant)
+}
+
 /************* Media Queries (Med) ***************/
 @media screen and (max-width: 1024px) {
     .portfolio__container {
