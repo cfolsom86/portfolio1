@@ -32,11 +32,11 @@
         -moz-transform: rotate(10deg);
         -ms-transform: rotate(10deg);
         -o-transform: rotate(10deg);
-    transition: all 10s ease;
-        -webkit-transition: all 1s ease;
-        -moz-transition: all 10s ease;
-        -ms-transition: all 10s ease;
-        -o-transition: all 10s ease;
+    transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
 }
 
 .about__me-image:hover {
