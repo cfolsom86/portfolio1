@@ -54,7 +54,7 @@ header {
     height: 30rem;
     position: absolute;
     left: 50%;
-    top: 20rem;
+    top: 10rem;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);

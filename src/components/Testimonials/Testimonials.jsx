@@ -24,7 +24,7 @@ const data = [
 {
   avatar: Blinkin,
   name: "My Mom",
-  review: "ierj qeijv weijbvefnv;weijv we;fij ;eif jbefo je;rkjvw ef;kjw4gi"
+  review: "Lorem ipsum dolor sit, amet consectetur adipiisicing elit."
 }
 ]
 
