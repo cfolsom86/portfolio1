@@ -25,7 +25,7 @@ const Services = () => {
             </li>
             <li>
               <BsCheckCircleFill className='service__list-icon'/>
-              <p>Ccontinuously test and improve products over time to stay relevant</p>
+              <p>Continuously test and improve products over time to stay relevant</p>
             </li>
             <li>
               <BsCheckCircleFill className='service__list-icon'/>
