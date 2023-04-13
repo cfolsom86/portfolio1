@@ -41,9 +41,9 @@ const Portfolio = () => {
 
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-          <a href="https://cliffs-eats.netlify.app/" target="_blank" rel='noopener noreferrer'>
+         {/*} <a href="https://cliffs-eats.netlify.app/" target="_blank" rel='noopener noreferrer'>*/}
             <img src={IMG3} alt="Recipe Search" />
-           </a> 
+           {/*</a> */}
           </div>
           <h3>Recipe Card Search</h3>
           <p>Made with React and the Spoonacular API</p>
