@@ -37,7 +37,7 @@ const Portfolio = () => {
           <div className='portfolio__item-cta'>
          {/* <a href="https://github.com/cfolsom86/tic-tac-toe" target="_blank" rel='noopener noreferrer' className='btn'>Github</a>
           <a href="https://earnest-puffpuff-33c05e.netlify.app/" target="_blank" rel='noopener noreferrer' className='btn btn-primary'>Live Demo</a>*/}
-          <a href="http://www.mastercheef222.com" target="_blank" rel="noopener noreferrer" >Go</a>
+          <a href="http://www.mastercheef222.com" target="_blank" rel="noopener noreferrer" >View Blogs</a>
           </div>
         </article> 
 
