@@ -4,6 +4,7 @@ import IMG1 from '../../assets/pw-gen_41.png'
 import IMG3 from '../../assets/recipe_80.jpg'
 import IMG4 from '../../assets/cap_350x.jpg'
 import IMG5 from '../../assets/prism-weather.jpg'
+import IMG2 from '../../assets/robot-chef.jpg'
 
 const Portfolio = () => {
   return (
@@ -26,18 +27,19 @@ const Portfolio = () => {
           </div>
         </article>  
 
-       {/*} <article className='portfolio__item'>
+        <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-          <a href="https://earnest-puffpuff-33c05e.netlify.app/" target="_blank" rel='noopener noreferrer' >
-            <img src={IMG2} alt="React Tic-Tac-Toe" />
+          <a href="http://www.mastercheef222.com" target="_blank" rel='noopener noreferrer' >
+            <img src={IMG2} alt="Cooking with Tech: a blog by Cliff" />
           </a>  
           </div>
-          <h3>Tic-tac-toe</h3>
+          <h3>Cooking with Tech: A Blog About Tech in Restaurants, and some blogs about other things</h3>
           <div className='portfolio__item-cta'>
-          <a href="https://github.com/cfolsom86/tic-tac-toe" target="_blank" rel='noopener noreferrer' className='btn'>Github</a>
-          <a href="https://earnest-puffpuff-33c05e.netlify.app/" target="_blank" rel='noopener noreferrer' className='btn btn-primary'>Live Demo</a>
+         {/* <a href="https://github.com/cfolsom86/tic-tac-toe" target="_blank" rel='noopener noreferrer' className='btn'>Github</a>
+          <a href="https://earnest-puffpuff-33c05e.netlify.app/" target="_blank" rel='noopener noreferrer' className='btn btn-primary'>Live Demo</a>*/}
+          <a href="http://www.mastercheef222.com" target="_blank" rel="noopener noreferrer" >Go</a>
           </div>
-        </article> */} 
+        </article> 
 
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
@@ -60,24 +62,24 @@ const Portfolio = () => {
           </a>  
           </div>
           <h3>CaptainPopCulture.com</h3>
-          <p>Built on Shopify, with custom CSS and Javascript</p>
+          <p>Built in Shopify, with custom CSS and .liquid</p>
           <a href="https://www.captainpopculture.com" target="_blank" rel='noopener noreferrer' className='btn btn-primary'>Go shopping!</a>
           
   </article> 
 
-        <article className='portfolio__item'>
+        {/*<article className='portfolio__item'>
           <div className='portfolio__item-image'>
           <a href="https://prism-weather.netlify.app/" target="_blank" rel='noopener noreferrer'>
             <img src={IMG5} alt="Recipe Search" />
            </a> 
           </div>
           <h3>Weather app</h3>
-          <p>OpenWeather API and GeoDB api - I'm still working on this one...</p>
+          <p>React app using OpenWeather API and GeoDB api - I'm still working on this one, especially the mobile version.</p>
           <div className='portfolio__item-cta'>
           <a href="https://github.com/cfolsom86/weather" target="_blank" rel='noopener noreferrer' className='btn'>Github</a>
           <a href="https://prism-weather.netlify.app/" target="_blank" rel='noopener noreferrer' className='btn btn-primary'>Live Demo</a>
           </div>
-        </article>
+    </article>*/}
 
         <small>*More being made all the time*</small>
       </div>
