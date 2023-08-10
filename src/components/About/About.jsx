@@ -26,11 +26,11 @@ const About = () => {
             <small>3 Years</small>
           </article>
 
-          <article className="about__card">
+          {/*<article className="about__card">
             <FiUsers  className='about__icon'/>
             <h5>Clients</h5>
             <small>Over 50 Clients</small>
-          </article>
+          </article>*/}
 
           <article className="about__card">
             <AiOutlineFundProjectionScreen  className='about__icon'/>

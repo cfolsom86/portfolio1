@@ -8,10 +8,10 @@
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius:2rem;
+    -moz-border-radius:2rem;
+    -ms-border-radius:2rem;
+    -o-border-radius:2rem;
     border: 1px solid transparent;
     transition: var(--transition1);
     -webkit-transition: var(--transition1);
