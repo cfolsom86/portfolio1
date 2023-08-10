@@ -50,7 +50,7 @@ header {
 
  .me > img{
     background-color: var(--color-bg-primary);
-    width: 19rem;
+    width: 50rem;
     height: 15rem;
     position: absolute;
     left: 50%;
