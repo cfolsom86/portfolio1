@@ -8,10 +8,10 @@ import './Header.css'
 const HeaderSocials = () => {
   return (
     <div className='header_socials'>
-        <a href="https://www.linkedin.com/in/cliff-folsom-5b331266/" target="_blank" rel="noopener noreferrer" ><BsLinkedin /></a>
-        <a href="https://www.captainpopculture.com" target="_blank" rel="noopener noreferrer" ><MdOutlineSell /></a>
-        <a href="https://www.github.com/cliff-folsom" target="_blank" rel="noopener noreferrer"><BsGithub /></a>
-        <a href="#Contact" ><GoArrowDown /></a>
+        <a href="https://www.linkedin.com/in/cliff-folsom-5b331266/" target="_blank" rel="noopener noreferrer" alt="Cliff's LinkedIn" title="Cliff's LinkedIn"><BsLinkedin /></a>
+        <a href="https://www.github.com/cliff-folsom" target="_blank" rel="noopener noreferrer" alt="Cliff's Github" title="Cliff's Github"><BsGithub /></a>
+        <a href="https://www.captainpopculture.com" target="_blank" rel="noopener noreferrer" alt="CaptainPopCulture" title="CaptainPopCulture"><MdOutlineSell /></a>
+        <a href="#Contact" alt="Contact" title="Scroll Down"><GoArrowDown /></a>
     </div>
   )
 }

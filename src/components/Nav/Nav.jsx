@@ -11,11 +11,11 @@ const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
-      <a href='#header' onClick={() => setActiveNav('#Header')} className={activeNav === '#Header' ? 'active' : ''}><FaHouseUser /></a>
-      <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser /></a>
-      <a href='#Experience'onClick={() => setActiveNav('#Experience')} className={activeNav === '#Experience' ? 'active' : ''}><GiBookshelf /></a>
-      <a href='#Portfolio' onClick={() => setActiveNav('#Portfolio')} className={activeNav === '#Portfolio' ? 'active' : ''}><BsFillHddNetworkFill /></a>
-      <a href='#Contact' onClick={() => setActiveNav('#Contact')} className={activeNav === '#Contact' ? 'active' : ''}><MdOutlineContactless /></a>
+      <a href='#header' title="Top" onClick={() => setActiveNav('#Header')} className={activeNav === '#Header' ? 'active' : ''}><FaHouseUser /></a>
+      <a href='#about' title="About" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser /></a>
+      <a href='#Experience' title="Experience" onClick={() => setActiveNav('#Experience')} className={activeNav === '#Experience' ? 'active' : ''}><GiBookshelf /></a>
+      <a href='#Portfolio' title="Portfolio" onClick={() => setActiveNav('#Portfolio')} className={activeNav === '#Portfolio' ? 'active' : ''}><BsFillHddNetworkFill /></a>
+      <a href='#Contact' title="Contact" onClick={() => setActiveNav('#Contact')} className={activeNav === '#Contact' ? 'active' : ''}><MdOutlineContactless /></a>
       {/*<a href='#Footer' onClick={() => setActiveNav('#Footer')} className={activeNav === '#Footer' ? 'active' : ''}><BiDonateHeart /></a>*/}
 
 
