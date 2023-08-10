@@ -4,6 +4,7 @@ import kurt from '../../assets/cliff_1_463x.jpg'
 import {MdWorkspacesOutline} from 'react-icons/md'
 import {FiUsers} from 'react-icons/fi'
 import {AiOutlineFundProjectionScreen} from 'react-icons/ai'
+import {GiTalk} from 'react-icons/gi'
 
 const About = () => {
   return (
@@ -22,7 +23,7 @@ const About = () => {
           <article className="about__card">
             <MdWorkspacesOutline  className='about__icon'/>
             <a href="#Experience"><h5>Experience</h5></a>
-            <small>2 Years</small>
+            <small>3 Years</small>
           </article>
 
           <article className="about__card">
@@ -36,12 +37,16 @@ const About = () => {
             <a href="#Portfolio"><h5>Projects</h5></a>
             <small>More all the time</small>
           </article>
-        </div>
 
-        <p>I am always a student, but am currently working at DECODE Advertising, a digital marketing agency in Houston. I am self-taught, spending the last 2-3 years studying the art of development. Some of the work I've done has been for National clients, such as St. Luke's Health, Dignity Health, White Deer Energy, and some more local work for friends, like CaptainPopCulture. I am always looking for more to learn and finding new ways to grow. </p>
-
-        <a href='#Contact' className='btn btn-primary'>Let's talk</a>
+          <article className="about__card">
+            <GiTalk className='about__icon'/>
+            <a href='#Contact' ><h5>Let's talk</h5></a>
+          </article>
+        </div>        
       </div>
+      <div className='about__words'>
+          <p>Greetings and welcome to my web development portfolio! I'm a dedicated learner on a journey of continuous growth in the realm of digital creation. With a self-directed learning approach spanning the last 2-3 years, I've immersed myself in the art of web development. Throughout this time, I've had the privilege of working on diverse projects, honing my skills and crafting solutions that fuse functionality with aesthetics. My passion for innovation and my commitment to refining my craft drive me to explore new horizons and embrace fresh challenges in the dynamic world of web development. <br/></p>
+        </div>
     </section>
   )
 }

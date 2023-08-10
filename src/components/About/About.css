@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+    margin-right: 2rem;
 }
 
 .about__me {
@@ -97,7 +98,16 @@
 
 .about__content p {
     color: var(--color-light);
-    margin: 2rem 0 2.6rem;
+    margin: 2rem 0 3.6rem;
+}
+
+.about__words {
+    width: 70%;
+    display: grid;
+    margin: 6rem auto 4rem;
+
+
+    
 }
 
 /*============ Media Queries (Med)=========*/

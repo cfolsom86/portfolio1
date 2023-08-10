@@ -1,26 +1,19 @@
 nav {
-    background: rgba(0, 0, 0, 0.3);
-    width: max-content;
+        
+
     display: flex;
     flex-direction: column;
-    padding: 1.7rem 1.7rem;
-    z-index: 2;
+    align-items: center;
+    gap: 2rem;
     position: fixed;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    top: 6rem;
-    left: 10rem;
-    display: flex;
-    gap: 1rem;
+    left: 4rem;
+    top: 5rem;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1.5rem 1.5rem;
+    z-index: 2;
+    backdrop-filter: blur(15px); 
     border-radius: 3rem;
-        -webkit-border-radius: 3rem;
-        -moz-border-radius: 3rem;
-        -ms-border-radius: 3rem;
-        -o-border-radius: 3rem;
-    backdrop-filter: blur(15px);    
+    width: max-content;
 }
 nav a {
     background: transparent;
