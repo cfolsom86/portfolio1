@@ -1,8 +1,8 @@
 import React from 'react'
 import './Testimonials.css'
-import Ava1 from '../../assets/fitz-avatar.jpg'
-import Ava2 from '../../assets/derp.jpeg'
-import Blinkin from '../../assets/blinkin.jpeg'
+import Ava1 from '../../assets/fitz-avatar.webp'
+import Ava2 from '../../assets/derp.webp'
+import Blinkin from '../../assets/blinkin.webp'
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css"
 import "swiper/css/pagination"

@@ -40,8 +40,10 @@ nav a.active {
 
 @media screen and (max-width: 1025px) {
     nav {
-        padding: 0.4rem 0.4rem;
+        display: none;
     }
+
+    
 }
 
 /*===========Media Queries (Sm)=========*/

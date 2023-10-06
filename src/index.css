@@ -137,6 +137,10 @@ img {
     section {
         margin-top: 6rem;
     }
+
+    .nav {
+        display: none;
+    }
 }
 
 /*===========Media Queries (Sm)=========*/

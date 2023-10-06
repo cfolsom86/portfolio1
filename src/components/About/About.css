@@ -108,6 +108,12 @@
     .about__container {
         grid-template-columns: 1fr;
         gap: 1rem;
+        justify-content: center;
+    }
+
+    .about__card {
+        justify-self: center;
+        width: 100%;
     }
 
     .about__me {
@@ -134,6 +140,7 @@
 
     .about__container {
         margin-right: 0px;
+        align-items: center;
     }
 
     .about__card {
