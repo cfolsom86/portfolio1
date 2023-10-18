@@ -2,7 +2,7 @@ import React from 'react'
 import './Portfolio.css'
 import IMG1 from '../../assets/pw-gen_41.webp'
 import IMG3 from '../../assets/recipe_80.webp'
-import IMG4 from '../../assets old/cap_350x.jpg'
+import IMG4 from '../../assets/cap_logo.jpg'
 //import IMG5 from '../../assets/prism-weather.jpg'
 import IMG2 from '../../assets/robot-chef.webp'
 

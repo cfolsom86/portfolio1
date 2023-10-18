@@ -3,7 +3,7 @@ import './Footer.css'
 import { BsFacebook } from 'react-icons/bs'
 import { BsInstagram } from 'react-icons/bs'
 import {BsLinkedin} from 'react-icons/bs'
-import me from '../../assets old/folsom-prism_1.png' 
+import me from '../../assets/folsom-prism-PhotoRoom-_2_.webp' 
 
 
 

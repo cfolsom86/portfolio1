@@ -2,7 +2,7 @@ import React from 'react';
 import './About.css'
 import kurt from '../../assets/cliff_1_463x.jpg'
 import {MdWorkspacesOutline} from 'react-icons/md'
-import {FiUsers} from 'react-icons/fi'
+//import {FiUsers} from 'react-icons/fi'
 import {AiOutlineFundProjectionScreen} from 'react-icons/ai'
 import {GiTalk} from 'react-icons/gi'
 
