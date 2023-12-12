@@ -10,13 +10,15 @@
     "core-js": "^3.27.0",
     "emailjs-com": "^3.2.0",
     "netlify-cli": "^10.18.0",
-    "node": "^20.7.0",
+    "node": "^20.10.0",
+    "npm": "^10.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-download-link": "^2.3.0",
     "react-icons": "^4.4.0",
+    "react-router-dom": "^6.20.1",
     "react-scripts": "^5.0.1",
-    "swiper": "^8.3.2",
+    "swiper": "^8.4.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

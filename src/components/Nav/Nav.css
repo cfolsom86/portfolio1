@@ -6,7 +6,7 @@ nav {
     align-items: center;
     gap: 2rem;
     position: fixed;
-    left: 4rem;
+    left: 2rem;
     top: 5rem;
     background: rgba(0, 0, 0, 0.3);
     padding: 1.5rem 1.5rem;
@@ -38,7 +38,7 @@ nav a.active {
 
 /*===========Media Queries (Med)=========*/
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 900px) {
     nav {
         display: none;
     }

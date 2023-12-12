@@ -29,7 +29,7 @@ header {
     align-items: center;
     gap: 2rem;
     position: fixed;
-    right: 4rem;
+    right: 2rem;
     top: 5rem;
     background: rgba(0, 0, 0, 0.3);
     padding: 2rem 2rem;
@@ -90,13 +90,13 @@ header {
 
 /*===========Media Queries (Med)=========*/
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 900px) {
     header {
         height: 100vh;
     }
 
     .header_socials, .scroll_down {
-        padding: 0.4rem 0.4rem;
+        display: none;
     }
 
    
