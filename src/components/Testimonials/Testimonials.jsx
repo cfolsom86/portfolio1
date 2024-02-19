@@ -1,7 +1,7 @@
 import React from 'react'
 import './Testimonials.css'
 import Ava1 from '../../assets/fitz-avatar.webp'
-import Ava2 from '../../assets/derp.webp'
+import Ava2 from '../../assets/bnwax-favicon.png'
 import Blinkin from '../../assets/blinkin.webp'
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css"
@@ -18,14 +18,15 @@ const data = [
 },
 {
   avatar: Ava2,
-  name: "Someone Else",
-  review: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet consectetur, aut inventore debitis a sunt minus quos animi eligendi deserunt aliquam assumenda, corporis impedit reprehenderit molestias doloribus culpa. Odit tenetur et quidem velit, iste doloremque ut! Laboriosam totam assumenda delectus eum dolor tenetur voluptatibus temporibus eius, placeat iure, neque asperiores!"
+  name: "Christina Jenkins",
+  review: "We have had the pleasure of working with Cliff Folsom for the past 8 months in maintaining and updating our business website. Cliff has been an invaluable asset to our team, demonstrating not only technical proficiency but also a great understanding of our business needs and objectives. Cliff has consistently delivered high-quality work on time and within budget. His attention to detail and commitment to our website success have resulted in a website that is not only visually appealing with new photos but also user-friendly and optimized for search engines. Communication has been seamless, and he always answers our questions with explanations we can understand, even though we are not savvy in the web development world. We recommend Cliff for his dedication and professionalism. -Christina Jenkins-"
 },
-{
+
+/*{
   avatar: Blinkin,
   name: "My Mom",
   review: "Lorem ipsum dolor sit, amet consectetur adipiisicing elit."
-}
+}*/
 ]
 
 const Testimonials = () => {
